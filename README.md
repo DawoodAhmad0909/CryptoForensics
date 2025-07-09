@@ -1,7 +1,12 @@
 # CryptoForensics
 ## Overview 
-## Objectives 
-To design and implement a blockchain analytics database system that enables in-depth examination of cryptocurrency transactions, smart contract interactions, and network activity, providing actionable insights for compliance, security monitoring, and market intelligence.
+
+This analysis explored Ethereum blockchain data, focusing on blocks, transactions, addresses, and DAI token flows. Key insights included identifying high gas usage blocks, large transactions, exchange interactions, and unusual patterns like front-running and circular (wash) trading.
+
+## Objectives
+
+To design and implement a blockchain analytics database system that enables in-depth examination of cryptocurrency transactions, smart contract interactions, and network activity, providing actionable insights for compliance, security monitoring, and market intelligence
+
 ## Creating Database 
 ``` sql
 CREATE DATABASE CryptoForensics_db;
@@ -473,3 +478,5 @@ WHERE
 ORDER BY gas_cost_percentage DESC;
 ```
 ## Conclusion 
+
+By analyzing transaction behaviors and token transfers, we uncovered key activity patterns, detected potential anomalies, and highlighted how users interact with exchanges and contracts. This supports better monitoring, fraud detection, and ecosystem understanding.
